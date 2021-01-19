@@ -1,8 +1,7 @@
-/* eslint-disable prettier/prettier */
 module.exports = {
-  testenviroment: 'jsdom',
+  testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
-  collectCoverageFrom: ['/src/**/*.ts(x)'],
+  collectCoverageFrom: ['src/**/*.ts(x)'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
 }
