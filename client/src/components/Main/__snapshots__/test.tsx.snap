@@ -21,7 +21,7 @@ exports[`<Main /> should render the heading 1`] = `
   </h2>
   <img
     alt="Um desenvolvedor de frente pra uma tela com código."
-    class="styles__Illustration-sc-1cs6c8-4 dJgtHR"
+    class="styles__Illustration-sc-1cs6c8-4 jBPmLu"
     src="/img/hero-illustration.svg"
   />
 </main>

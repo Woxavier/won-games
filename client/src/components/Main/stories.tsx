@@ -1,19 +1,18 @@
-import { withKnobs, text } from '@storybook/addon-knobs'
-
 import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main,
-  decorator: [withKnobs]
+  component: Main
 }
 
-export const Basic = () => (
-  <Main
-    title={text('Title', 'React Avançado')}
-    description={text(
-      'Description',
-      'Typesript, ReactJS, NextJS e Styled Components'
-    )}
-  />
-)
+export const Basic = (args) => <Main {...args} />
+Basic.args = {
+  title: 'Salve familia na situação das coisas',
+  description: 'Aí dentro'
+}
+
+export const Default = (args) => <Main {...args} />
+Default.args = {
+  title: 'É só um teste boy',
+  description: 'É sim'
+}
